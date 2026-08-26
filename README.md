@@ -10,11 +10,11 @@
 
 ---
 
-### Hi, I'm Aaliya
+### Hi, I am Aaliya
 
 Android Developer building with Kotlin, Jetpack Compose and real-world architecture.
-Now diving into ML because I want the apps I build to actually think.
-Currently part of SIES GST's Technical Team.
+Cross-platform in React Native, and picking up applied ML because I want the apps I build to actually think.
+Active open-source contributor (GSSoC'26). Currently part of SIES GST's Technical Team.
 
 Proud of where I am but nowhere near satisfied. 🎀
 
@@ -32,8 +32,9 @@ Proud of where I am but nowhere near satisfied. 🎀
 ![Retrofit](https://img.shields.io/badge/Retrofit-48B983?style=flat-square&logo=square&logoColor=white)
 ![Room](https://img.shields.io/badge/Room%20DB-4285F4?style=flat-square&logo=google&logoColor=white)
 
-**Machine Learning**
+**Cross-Platform & ML**
 
+![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -53,8 +54,20 @@ Proud of where I am but nowhere near satisfied. 🎀
 
 | Project | What it does | Stack |
 |--------|-------------|-------|
-| [**RapidReach**](https://github.com/Aaliyahussain27/RapidReach) | Personal safety app — SOS alerts, live location sharing, emergency contacts. Built with real-time logic, not just UI. | Kotlin · Jetpack Compose · Supabase · Maps API · MVVM |
-| [**OneStop**](https://github.com/Aaliyahussain27/OneStop) | Structured productivity system — tasks, notes, habits. Focused on architecture + scalability. | Kotlin · MVVM · Room · Retrofit · Material 3 |
+| [**RapidReach**](https://github.com/Aaliyahussain27/RapidReach) | One-tap SOS system with biometric-protected alert cancellation and real-time location sharing. Offline emergency services lookup via Overpass API — no paid map dependency. Supabase-backed sync with Room + WorkManager for 100% delivery even under network loss. | Kotlin · Jetpack Compose · Supabase · OSMDroid · Room · WorkManager |
+| [**ContextCam**](https://github.com/Aaliyahussain27/ContextCam) | Auto-detects document type (health/legal/academic) via on-device OCR and runs mode-specific analysis through Gemini API. Offline-first pipeline using Firebase ML Kit for instant text extraction, with privacy-focused local history (30-day auto-delete, PDF export). | React Native · Expo · Gemini API · Firebase ML Kit |
+| [**OneStop**](https://github.com/Aaliyahussain27/OneStop) | Structured productivity system — habit/goal tracking, study timer, playlist manager. Built on MVVM with a focus on clean, scalable architecture over a growing feature set. | Kotlin · MVVM · Room · Retrofit · Material 3 |
+
+---
+
+### Open Source — GSSoC 2026
+
+Contributing across repos in different stacks, not just one comfort zone:
+
+- **HerStack** — built a 6-panel interactive storyboard explaining CNNs (Vite + React)
+- **PlaceMentor369** — fixed a blocking syntax error and implemented two missing utility modules (`skillGapAnalysis.js`, `learningResources.js`) (Node.js · Express · MongoDB)
+- **OMNYX-OS** — designed empty-state UI for the Threat Feed tab, standardized spacing/radius tokens across cards and chips (React Native · TypeScript)
+- **SecuScan** — completed a spider plugin PR, including a checksum refresh fix after metadata changes
 
 ---
 
@@ -78,7 +91,7 @@ Proud of where I am but nowhere near satisfied. 🎀
 
 - Core ML algorithms — not just using them, *understanding* them
 - Deep learning from scratch
-- Advanced Jetpack Compose patterns  
+- Advanced Jetpack Compose patterns
 - Gemini API · Google Cloud · RAG architectures
 
 ---
